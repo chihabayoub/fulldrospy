@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Drospy Dashboard Product</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://spontaneous-florentine-0db811.netlify.app/img/logo%202.png">
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <div class="app-icon">
+     <a href="home.html">       <img src="https://spontaneous-florentine-0db811.netlify.app/img/logo%205.png" width="140px" alt=""></a>
+          </div>
+        </div>
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            <a href="home.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              <span>Home</span>
+            
+            </a>
+          </li>
+          <li class="sidebar-list-item active">
+            <a href="dashboard.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+              <span>Products Database</span>
+            </a>
+          </li>
+          
+          <li class="sidebar-list-item">
+            <a href="dashboard-message.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-inbox"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg>
+              <span>Ask For Help</span>
+            
+            </a>
+          </li>
+          <li class="sidebar-list-item">
+            <a href="update.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>
+              <span>Update Products</span>
+            </a>
+          </li>
+        </ul>
+        <div class="account-info">
+          <div class="account-info-picture">
+            <img src="https://spontaneous-florentine-0db811.netlify.app/img/logo%201.png" alt="Account">
+          </div>
+          <div class="account-info-name">Drospy</div>
+          <button class="account-info-more">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="app-content">
+        <div class="app-content-header">
+          <h1 class="app-content-headerText">Products Database</h1>
+   
+     <a href="home.html">     <img class="imglogo" src="https://spontaneous-florentine-0db811.netlify.app/img/logo%205.png" width="130px" alt=""></a>
+     
+        </div>
+        <div class="app-content-actions">
+        
+          <div class="app-content-actions-wrapper">
+            <div class="filter-button-wrapper">
+           
+              <div class="filter-menu">
+                <label>Category</label>
+                <select>
+                  <option>All Categories</option>
+                  <option>Furniture</option>                     <option>Decoration</option>
+                  <option>Kitchen</option>
+                  <option>Bathroom</option>
+                </select>
+                <label>Status</label>
+                <select>
+                  <option>All Status</option>
+                  <option>Active</option>
+                  <option>Disabled</option>
+                </select>
+                <div class="filter-menu-buttons">
+                  <button class="filter-button reset">
+                    Reset
+                  </button>
+                  <button class="filter-button apply">
+                    Apply
+                  </button>
+                </div>
+              </div>
+            </div>
+          
+          
+           
+          </div>
+        </div>
+     
+        
+
+        <div class = "card-wrapper">
+            <div class = "card">
+              <!-- card left -->
+              <div class = "product-imgs">
+                <div class = "img-display">
+                  <div class = "img-showcase">
+                    <img class="imgpro"  src = "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_1.jpg" alt = "shoe image">
+                    <img class="imgpro" src = "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_2.jpg" alt = "shoe image">
+                    <img class="imgpro" src = "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_3.jpg" alt = "shoe image">
+                    <img class="imgpro" src = "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_4.jpg" alt = "shoe image">
+                  </div>
+                </div>
+                <div class = "img-select">
+                  <div class = "img-item">
+                    <a href = "#" data-id = "1">
+                      <img class="imgpro" src = "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_1.jpg" alt = "shoe image">
+                    </a>
+                  </div>
+                  <div class = "img-item">
+                    <a href = "#" data-id = "2">
+                      <img class="imgpro" src = "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_2.jpg" alt = "shoe image">
+                    </a>
+                  </div>
+                  <div class = "img-item">
+                    <a href = "#" data-id = "3">
+                      <img class="imgpro" src = "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_3.jpg" alt = "shoe image">
+                    </a>
+                  </div>
+                  <div class = "img-item">
+                    <a href = "#" data-id = "4">
+                      <img class="imgpro" src = "https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_4.jpg" alt = "shoe image">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- card right -->
+              <div class = "product-content">
+                <h2 class = "product-title">nike shoes</h2>
+           
+                <div class = "product-rating">
+                  <i class = "fas fa-star"></i>
+                  <i class = "fas fa-star"></i>
+                  <i class = "fas fa-star"></i>
+                  <i class = "fas fa-star"></i>
+                  <i class = "fas fa-star-half-alt"></i>
+              
+                </div>
+          
+                <div class = "product-detail">
+                    <h2>Description</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi ipsa!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde.</p>
+                    <ul>
+                  
+                   
+                    </ul>
+                  </div>
+                  <h2>Overview</h2>
+                <div class = "product-price">
+                  
+                  <p class = "new-price">Cost : <span>15,11$</span></p>
+                  <p class = "new-price">Price : <span>20,99$</span></p>
+                  <p class = "new-price">Monthly Sales : <span>700</span></p>
+                  <p class = "new-price">Score : <span>6/10</span></p>
+                  <p class = "new-price">Saturation : <span style="color: red;">High</span></p>
+              
+                </div>
+          
+              
+
+                <div class = "purchase-info">
+                
+                  <h2>Quick Search</h2>
+        
+                 <a href=""> <button type = "button" class = "btn12"><img src="https://c.clc2l.com/t/a/l/aliexpress-wEs-rW.png" width="35px" alt=""><i class = "btn12"></i>
+                 </button> </a>
+                  
+                <a href="">  <button type = "button" class = "btn12"><img src="https://cdn0.iconfinder.com/data/icons/most-usable-logos/120/Amazon-512.png" width="35px" alt=""><i class = "fas fa-shopping-cart"></i>
+                </button></a>
+                  <br>
+               
+                
+                    <h2>Competitors</h2> 
+                
+                   <a href="">  <button type = "button" class = "btn12"> <img src="https://cdn.iconscout.com/icon/free/png-256/free-shopify-226579.png" width="35px" alt=""><i class = "fas fa-shopping-cart"></i>
+                   </button>  </a>
+                      <br>
+                
+                   <h2>Content For Product</h2> 
+              
+                 <a href="">  <button type = "button" class = "btn12"> <img src="data:image/png;base64,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" width="35px" alt=""><i class = "fas fa-shopping-cart"></i>
+                  </button></a>
+                
+                </div>
+          
+              </div>
+            </div>
+          </div>
+
+
+              
+                
+                </div>
+            </div>
+        </div>
+      
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+.app-container {
+
+overflow: scroll;
+
+}
+
+.btn12{
+    width: 130px;
+    height: 55px;
+    background-color: #225AEA;
+    box-shadow: 0 3px 6px #225AEA;
+    border-radius: 6px;
+}
+
+*{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+ font-family: 'Open Sans', sans-serif;
+}
+body{
+ line-height: 1.5;
+}
+.card-wrapper{
+ max-width: 1100px;
+ margin: 0 auto;
+}
+.imgpro{
+ width: 100%;
+ display: block;
+}
+
+.img-display{
+ overflow: hidden;
+}
+.img-showcase{
+ display: flex;
+ width: 100%;
+ transition: all 0.5s ease;
+}
+.img-showcase img{
+ min-width: 100%;
+}
+.img-select{
+ display: flex;
+}
+.img-item{
+ margin: 0.3rem;
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3){
+ margin-right: 0;
+}
+.img-item:hover{
+ opacity: 0.8;
+}
+.product-content{
+ padding: 2rem 1rem;
+}
+.product-title{
+ font-size: 3rem;
+ text-transform: capitalize;
+ font-weight: 700;
+ position: relative;
+ color: #000000;
+ margin: 1rem 0;
+}
+.product-title::after{
+ content: "";
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ height: 4px;
+ width: 80px;
+ background: #12263a;
+}
+.product-link{
+ text-decoration: none;
+ text-transform: uppercase;
+ font-weight: 400;
+ font-size: 0.9rem;
+ display: inline-block;
+ margin-bottom: 0.5rem;
+ background: #256eff;
+ color: #fff;
+ padding: 0 0.3rem;
+ transition: all 0.5s ease;
+}
+.product-link:hover{
+ opacity: 0.9;
+}
+.product-rating{
+ color: #ffc107;
+}
+.product-rating span{
+ font-weight: 600;
+ color: #252525;
+}
+.product-price{
+ margin: 1rem 0;
+ font-size: 23px;
+ font-weight: 700;
+}
+.product-price span{
+ font-weight: 400;
+}
+.last-price span{
+ color: #f64749;
+ text-decoration: line-through;
+}
+.new-price span{
+ color: #256eff;
+}
+.product-detail h2{
+ text-transform: capitalize;
+ color: #000000;
+ padding-bottom: 0.6rem;
+}
+.product-detail p{
+ font-size: 0.9rem;
+ padding: 0.3rem;
+ opacity: 0.8;
+}
+.product-detail ul{
+ margin: 1rem 0;
+ font-size: 0.9rem;
+}
+.product-detail ul li{
+ margin: 0;
+ list-style: none;
+ background: url(https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/checked.png) left center no-repeat;
+ background-size: 18px;
+ padding-left: 1.7rem;
+ margin: 0.4rem 0;
+ font-weight: 600;
+ opacity: 0.9;
+}
+.product-detail ul li span{
+ font-weight: 400;
+}
+.purchase-info{
+ margin: 1.5rem 0;
+}
+.purchase-info input,
+.purchase-info .btn{
+ border: 1.5px solid #ddd;
+ border-radius: 25px;
+ text-align: center;
+ padding: 0.45rem 0.8rem;
+ outline: 0;
+ margin-right: 0.2rem;
+ margin-bottom: 1rem;
+}
+.purchase-info input{
+ width: 60px;
+}
+.purchase-info .btn{
+ cursor: pointer;
+ color: #fff;
+}
+.purchase-info .btn:first-of-type{
+ background: #256eff;
+}
+.purchase-info .btn:last-of-type{
+ background: #f64749;
+}
+.purchase-info .btn:hover{
+ opacity: 0.9;
+}
+.social-links{
+ display: flex;
+ align-items: center;
+}
+.social-links a{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 32px;
+ height: 32px;
+ color: #000;
+ border: 1px solid #000;
+ margin: 0 0.2rem;
+ border-radius: 50%;
+ text-decoration: none;
+ font-size: 0.8rem;
+ transition: all 0.5s ease;
+}
+.social-links a:hover{
+ background: #000;
+ border-color: transparent;
+ color: #fff;
+}
+
+@media screen and (min-width: 992px){
+ .card{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-gap: 1.5rem;
+ }
+ .card-wrapper{
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .product-imgs{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ .product-content{
+     padding-top: 0;
+ }
+}
+</style>    
+
+<script>
+
+
+const imgs = document.querySelectorAll('.img-select a');
+const imgBtns = [...imgs];
+let imgId = 1;
+
+imgBtns.forEach((imgItem) => {
+    imgItem.addEventListener('click', (event) => {
+        event.preventDefault();
+        imgId = imgItem.dataset.id;
+        slideImage();
+    });
+});
+
+function slideImage(){
+    const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+
+    document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+}
+
+window.addEventListener('resize', slideImage)
+
+</script>
+    <script>
+        document.querySelector('.jsFilter').addEventListener('click', function () {
+  document.querySelector('.filter-menu').classList.toggle('active');
+});
+
+document.querySelector('.grid').addEventListener('click', function () {
+  document.querySelector('.list').classList.remove('active');
+  document.querySelector('.grid').classList.add('active');
+  document.querySelector('.products-area-wrapper').classList.add('gridView');
+  document
+    .querySelector('.products-area-wrapper')
+    .classList.remove('tableView');
+});
+
+document.querySelector('.list').addEventListener('click', function () {
+  document.querySelector('.list').classList.add('active');
+  document.querySelector('.grid').classList.remove('active');
+  document.querySelector('.products-area-wrapper').classList.remove('gridView');
+  document.querySelector('.products-area-wrapper').classList.add('tableView');
+});
+
+var modeSwitch = document.querySelector('.mode-switch');
+modeSwitch.addEventListener('click', function () {
+  document.documentElement.classList.toggle('light');
+  modeSwitch.classList.toggle('active');
+});
+    </script>
+  </body>
+</html>
